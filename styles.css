@@ -8,21 +8,24 @@
 .header {
     background-color: #1F2937;
     color: #F9F8FA;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
 
     
 }
 .headercontainer {
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: space-between;
+    
     align-items: center;
+    padding: 16px 10%;
     
 }
 
 .headerbox {
     width: 400px;
+    
+
 }
 
 .title {
@@ -33,9 +36,10 @@
     
 }
 
-.imgcontainer {
+.imgcontainer img {
     height: 500px;
-    width: 700px;
+    width: auto;
+    border-radius: 10%;
 }
 
 ul {
@@ -44,7 +48,7 @@ ul {
  margin: 0;
  padding: 0;
  display: flex;
- gap: 16px;
+ gap: 32px;
  
 }
 
@@ -61,7 +65,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 5%;
 
 }
 
@@ -88,6 +92,11 @@ a {
     height: 200px;
     border: #3882F6 5px solid;
     border-radius: 20px;
+}
+
+
+.padding {
+    padding-bottom: 5%;
 }
 
 
